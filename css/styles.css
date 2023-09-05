@@ -1,0 +1,10 @@
+html,
+body {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  background: url("../img/background_map.jpg") no-repeat center/cover;
+}
