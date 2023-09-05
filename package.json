@@ -4,7 +4,7 @@
   "description": "Test assignment for the company Only",
   "scripts": {
     "lint": "eslint .",
-    "start": "browser-sync start --server --no-ui"
+    "start": "browser-sync start --server --no-ui --files */**, *.*"
   },
   "author": "dm.zakharov",
   "license": "ISC",
