@@ -1,38 +1,5 @@
-html,
-body {
-  margin: 0;
-}
-
-body {
-  min-height: 100vh;
-  overflow: hidden;
-  background: url("../img/background_map.jpg") no-repeat center/cover;
-}
-
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  box-sizing: border-box;
-  
-  width: 41px;
-  height: 41px;
-
-  opacity: 0.7;
-  border-radius: 50%;
-  border: none;
-  cursor: pointer;
-}
-
-
-.button:hover {
-  opacity: 0.6;
-}
-
-.button--blue {
-  background-color: #3877EE;
-}
+@import "main.css";
+@import "buttons.css";
 
 .svg-container {
   box-sizing: border-box;
@@ -40,4 +7,3 @@ body {
   width: 10px;
   height: 10px;
 }
-

@@ -1,0 +1,144 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  
+  width: 41px;
+  height: 41px;
+
+  opacity: 0.7;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+.button--blue {
+  background-color: #3877EE;
+}
+
+.button--one {
+  position: absolute;
+  top: 25%;
+}
+
+.button--two {
+  position: absolute;
+  top: 20%;
+}
+
+.button--three {
+  position: absolute;
+  bottom: 30%;
+}
+
+.button--four {
+  position: absolute;
+  bottom: 38%;
+}
+
+.button--five {
+  position: absolute;
+  top: 45%;
+}
+
+.button--six {
+  position: absolute;
+  bottom: 30%;
+}
+
+@media (min-width: 1280px) and (max-width: 1500px) {
+  .button--one {
+    left: 20%; 
+  }
+
+  .button--two {
+    right: 16%;
+  }
+
+  .button--three {
+    left: 10%;
+  }
+
+  .button--four {
+    right: 38%;
+  }
+
+  .button--five {
+    right: 10%;
+  }
+
+  .button--six {
+    right: 1%;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+  .button--three {
+    left: 12%;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+  .button--three {
+    left: 16%;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1700px) {
+  .button--three {
+    left: 18%;
+  }
+}
+
+
+@media (min-width: 1500px) and (max-width: 1700px) {
+  .button--two {
+    right: 20%;
+  }
+
+  .button--six {
+    right: 5%;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 1800px) {
+  .button--three {
+    left: 20%;
+  }
+}
+
+@media (min-width: 1800px) and (max-width: 1920px) {
+  .button--three {
+    left: 22%;
+  }
+
+  .button--six {
+    right: 15%;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 1920px) {
+  .button--two {
+    right: 25%;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1920px) {
+  .button--one {
+    left: 25%; 
+  }
+
+  .button--four {
+    right: 42%;
+  }
+
+  .button--five {
+    right: 20%;
+  }
+}
