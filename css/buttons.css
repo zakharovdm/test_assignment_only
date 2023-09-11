@@ -22,6 +22,10 @@
   background-color: #3877EE;
 }
 
+.button--green {
+  background-color: #6ABF4B;
+}
+
 .button--one {
   position: absolute;
   top: 25%;
@@ -50,6 +54,30 @@
 .button--six {
   position: absolute;
   bottom: 30%;
+}
+
+.button--seven {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+}
+
+.button--eight {
+  position: absolute;
+  bottom: 20%;
+  left: 60%
+}
+
+.button--nine {
+  position: absolute;
+  bottom: 35%;
+  right: 25%;
+}
+
+.button--ten {
+  position: absolute;
+  top: 35%;
+  right: 40%;
 }
 
 @media (min-width: 1280px) and (max-width: 1500px) {
