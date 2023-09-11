@@ -14,6 +14,36 @@
   cursor: pointer;
 }
 
+.button span {
+  display: none;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button--open {
+  padding: 11px 15px;
+  align-items: center;
+  width: auto;
+  gap: 15px;
+  border-radius: 40px;
+}
+
+.button--open .svg-container {
+  display: none;
+}
+
+.button--open .svg-container-open {
+  display: block;
+}
+
+.button--open span {
+  display: block;
+}
+
 .button:hover {
   opacity: 0.6;
 }
